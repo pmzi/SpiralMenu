@@ -26,6 +26,11 @@
     "version": "npm run compile && git add -A lib",
     "postversion": "git push --follow-tags"
   },
+  "dependencies": {
+    "babel-loader": "^7.1.5",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^1.15.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.4.0",
     "babel-core": "^6.4.0",
